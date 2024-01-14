@@ -30,7 +30,7 @@ body {
   .nav_links {
       display: flex;
       list-style: none;
-      gap: 60px;
+      gap: 40px;
   }
   
   .nav_links a {
@@ -51,8 +51,50 @@ body {
   }
   
   .btn {
-      color: var(--color-white);
-      border: solid 1px var(--color-white);
-      border-radius: 10%;
-      
+    text-decoration: none;
+    color: var(--color-white);
+    border: solid 1px var(--color-white);
+    border-radius: 6px;
+    padding: 10px 15px;
   }
+
+  .container_ed {
+    margin-left: 15%;
+    padding-top: 5%;
+  }
+
+  .container_ed p {
+    width: 550px;
+    height: 100px;
+    font-size: 15px;
+    margin-bottom: -10px;
+  }
+
+  .card {
+    color: var(--color-black);
+    background-color: var(--color-white);
+    font-family: var(--font);
+    font-size: 20px;
+    width: 400px;
+    float: right;
+    margin-right: 400px;
+    margin-top: -300px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  form {
+    margin-bottom: 20px;
+    border-style: line;
+  }
+
+  input {
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: var(--font);
+  }
+
+  .btn {
+    margin-top: 20px;
+    background-color: var(--color-purple);
+  } 
