@@ -81,6 +81,7 @@ body {
     margin-top: -300px;
     text-align: center;
     border-radius: 10px;
+    box-shadow: 8px 10px 5px 2px var(--color-dark-purple);
   }
 
   form {
@@ -98,3 +99,40 @@ body {
     margin-top: 20px;
     background-color: var(--color-purple);
   } 
+
+ .basic_information {
+    margin: 56px 750px;
+    font-size: 17px;
+  }
+
+  .inf {
+    width: 450px;
+    text-align: center;
+    font-family: var(--font);
+  }
+
+  .text_center {
+    line-height: 30px;
+  }
+
+  .count {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 200px;
+    padding: 30px;
+    text-align: center;
+    font-family: var(--font);
+    margin-left: -240px;
+    font-size: 20px;
+  }
+
+  .text_secondary {
+    padding: 20px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+
