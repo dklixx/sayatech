@@ -119,16 +119,17 @@ body {
 
   .text_center {
     line-height: 30px;
+    margin-left: -70px;
   }
 
   .count {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 200px;
+    grid-gap: 250px;
     padding: 30px;
     text-align: center;
     font-family: var(--font);
-    margin-left: -240px;
+    margin-left: -320px;
     font-size: 20px;
     margin-top: 50px;
   }
