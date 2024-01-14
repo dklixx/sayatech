@@ -149,4 +149,32 @@ body {
     box-shadow: 0 4px 8px #260040;
   }
 
+ .container_cloud {
+    background-color: #79589F;
+    text-align: center;
+    height: 210px;
+}
 
+.container_cloud h1 {
+    font-size: 40px;
+    color: var(--color-white);
+    font-family: var(--font);
+    padding-top: 25px;
+}
+
+.container_cloud p {
+    font-size: 20px;
+    color: var(--color-white);
+    font-family: var(--font);
+    margin-bottom: 30px;
+}
+
+.btn_btn {
+    text-decoration: none;
+    color: var(--color-white);
+    background-color: var(--color-dark-purple);
+    border: solid 1px var(--color-dark-purple);
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-family: var(--font);
+}
