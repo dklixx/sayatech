@@ -285,3 +285,15 @@ body {
     color: var(--color-white);
     text-decoration: none;
 }
+
+.maps {
+  background-color: var(--color-dark-purple);
+  display: grid;
+  place-items: center;
+  margin: 0;
+}
+
+iframe {
+  max-width: 80%;
+  max-height: 80%;
+}
