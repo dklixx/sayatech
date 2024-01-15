@@ -122,6 +122,8 @@ body {
 .inf {
     max-width: 600px; 
     margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .count div {
@@ -150,6 +152,7 @@ body {
   flex-direction: column; 
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
 }
 
 .cli_card {
@@ -180,7 +183,7 @@ h4 {
     font-size: 40px;
     color: var(--color-white);
     font-family: var(--font);
-    padding-top: 25px;
+    padding-top: 10px;
 }
 
 .container_cloud p {
@@ -206,6 +209,8 @@ h4 {
 
 .lg h2 {
   text-align: center;
+  margin-top: 40px;
+  margin-bottom: 60px;
 }
 
 .line_lg_ul {
@@ -215,6 +220,7 @@ h4 {
   text-align: center;
   padding: 0; 
   height: 40px;
+  margin-bottom: 50px;
 }
 
 .line_lg_ul li {
