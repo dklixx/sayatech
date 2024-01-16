@@ -357,3 +357,76 @@ iframe {
   max-width: 80%;
   max-height: 80%;
 }
+
+/* планшетная адаптация */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .header_container {
+    height: 700px;
+  }
+
+  .container_ed {
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+
+  .card {
+    width: 70%;
+    margin-right: 10%;
+    margin-top: -50px;
+
+  }
+
+  .count {
+    top: 200px;
+    right: 0;
+  }
+}
+
+/* мобильная адаптация */
+
+@media only screen and (max-width: 767px) {
+  .header_container {
+    height: 600px;
+    margin-top: 0;
+  }
+
+  .container_ed {
+    margin-left: 5;
+    padding-top: 5%;
+    width: 200px;
+  }
+
+  .card {
+    width: 90%;
+    margin-right: -20%;
+    margin-top: -270%;
+    position: relative;
+  }
+
+  .count {
+    top: 20px;
+    right: 0;
+  }
+
+  .cli_card {
+    width: 100%; 
+    max-width: none; 
+  }
+
+  .footer_sayatech {
+    grid-template-columns: 1fr;
+  }
+
+  .sayatech_f {
+    display: none;
+  }
+
+  .footer_nav {
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+.footer_icon {
+    grid-column: span 3;
+}
+}
