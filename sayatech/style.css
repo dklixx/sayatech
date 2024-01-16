@@ -48,6 +48,10 @@ body {
       height: 400px;
       color: var(--color-white);
       font-family: var(--font);
+
+      display: flex;
+      justify-content: center;
+      margin: 0;
   }
   
   .btn {
@@ -65,8 +69,21 @@ body {
   }
 
   .container_ed {
-    margin-left: 15%;
+    margin-left: -50%;
     padding-top: 5%;
+
+    opacity: 0;
+    animation: appearAnimation 1s ease-out forwards;
+    top: 0;
+    left: 0;
+  }
+
+  @keyframes appearAnimation {
+    to {
+      opacity: 1;
+      top: 50px;
+      left: 50px;
+    }
   }
 
   .container_ed p {
@@ -76,6 +93,13 @@ body {
     margin-bottom: -10px;
   }
 
+  .card_animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
   .card {
     color: var(--color-black);
     background-color: var(--color-white);
@@ -83,16 +107,25 @@ body {
     font-size: 20px;
     width: 400px;
     float: right;
-    margin-right: 400px;
+    margin-right: 20%;
     margin-top: -300px;
     text-align: center;
     border-radius: 10px;
     box-shadow: 8px 10px 5px 2px var(--color-dark-purple);
+
+    position: absolute;
+    opacity: 0; 
+    animation: appearAnimation 1s ease-out forwards; 
+    top: 50px;
+    right: 0;
   }
 
-  form {
-    margin-bottom: 20px;
-    border-style: line;
+  @keyframes appearAnimation {
+    to {
+      opacity: 1;
+      top: 500px;
+      right: 50px;
+    }
   }
 
   input {
@@ -113,10 +146,31 @@ body {
     font-family: var(--font);
 }
 
+.count_animation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
 .count {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     gap: 10px; 
+
+
+    opacity: 0; 
+    animation: appearAnimation 1s ease-out forwards; 
+    top: 50px;
+    right: 0;
+}
+
+@keyframes appearAnimation {
+  to {
+    opacity: 1;
+    top: 500px;
+    right: 50px;
+  }
 }
 
 .inf {
